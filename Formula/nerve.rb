@@ -2,7 +2,7 @@ class Nerve < Formula
   desc "Per-worktree port/env isolation so AI agents can run your whole stack"
   homepage "https://github.com/mascah/nerve"
   url "https://github.com/mascah/nerve/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "REPLACE_WITH_TARBALL_SHA256"
+  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   license "MIT"
   head "https://github.com/mascah/nerve.git", branch: "main"
 
