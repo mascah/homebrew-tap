@@ -21,6 +21,7 @@ brew install nerve
 |---|---|
 | [nerve](https://github.com/mascah/nerve) | Per-worktree port/env isolation so AI agents can run your whole stack |
 
-Casks under `Casks/` are generated and pushed automatically by
-[GoReleaser](https://goreleaser.com) on each release of the source repo — don't
-edit them by hand.
+Formulae under `Formula/` are **build-from-source** — `brew install` compiles the
+tool on your machine, so there's no code-signing, no Gatekeeper prompt, and Linux
+works too. Each formula is maintained by hand: bump its `url` tag + `sha256` per
+release.
