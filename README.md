@@ -23,5 +23,8 @@ brew install nerve
 
 Formulae under `Formula/` are **build-from-source** — `brew install` compiles the
 tool on your machine, so there's no code-signing, no Gatekeeper prompt, and Linux
-works too. Each formula is maintained by hand: bump its `url` tag + `sha256` per
-release.
+works too.
+
+Bump a formula to a new release with `./bump-formula.sh vX.Y.Z` (after the source
+repo's tag is pushed) — it fetches the tag's source-tarball `sha256`, rewrites the
+formula's `url` + `sha256`, commits, and pushes. `--dry-run` previews the change.
